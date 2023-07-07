@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@tauri-apps/cli": "^1.4.0",
+    "@types/node": "^18",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.1.7",
+    "nuxt": "^3.6.0",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.14",
+    "@nuxtjs/emotion": "^0.1.0",
+    "@nuxtjs/google-fonts": "^3.0.1",
+    "@pinia/nuxt": "^0.4.11",
+    "@tauri-apps/api": "^1.4.0",
+    "pinia": "^2.1.4",
+    "tauri-plugin-upload-api": "github:tauri-apps/tauri-plugin-upload#v1"
+  }
+}

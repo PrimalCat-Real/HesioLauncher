@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.nav-item{
+    @apply stroke-light-600 hover:stroke-light-200 transition-colors duration-300 cursor-pointer
+}
+
+.wrapper-col{
+    @apply flex flex-col justify-between
+}
+.wrapper-row{
+    @apply flex flex-row justify-between
+}
+.title{
+    @apply text-light-default font-inter sm:text-2xl xl:text-4xl font-light leading-10 tracking-wide
+}
+.subtitle-gradient{
+    @apply font-semibold sm:text-[11px] font-inter text-sm text-center uppercase leading-none tracking-wider bg-gradient-to-r from-[#6557FF] from-10% via-30% via-[#AA3FFF] to-80% to-[#F8522E] text-transparent bg-clip-text
+}
+
+.server-btn{
+    @apply bg-dark-400 w-12 h-12 rounded-md flex items-center justify-center shadow-sm
+}
